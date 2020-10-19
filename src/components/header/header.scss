@@ -1,0 +1,21 @@
+@import '../../style/variables';
+
+.header-container {
+  @include flex-row(flex-start, center);
+  height: 75px;
+  width: 80%;
+  background: $primary-color;
+  box-shadow: 0px 2px 4px -1px $box-shadow2, 0px 4px 5px 0px $box-shadow1,
+    0px 1px 10px 0px $box-shadow;
+  color: $white-color;
+  position: fixed;
+  top: 0;
+  left: 20%;
+  box-sizing: border-box;
+  h1 {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,6 @@
+module.exports = {
+  ADD_TO_DO: 'ADD_TO_DO',
+  SEARCH_TO_DO: 'SEARCH_TO_DO',
+  DELETE_TO_DO: 'DELETE_TO_DO',
+  MARK_AS_DONE: 'MARK_AS_DONE',
+};

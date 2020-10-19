@@ -1,0 +1,19 @@
+@import './mixins';
+$primary-color: #2184ff;
+$white-color: #ffffff;
+$black-color: #000000;
+$font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+  'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+$code-snippet-font: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+$secondary-color: #7ba1d0;
+$background-light: #757ce8;
+$background-dark: #1976d2;
+$text-dark: #002884;
+$search-background: #8abbef;
+$border-color: #e0e0e0;
+$search-text-color: #4387d0;
+$disabled-color: #d3d5d7;
+$box-shadow: rgba(0, 0, 0, 0.12);
+$box-shadow1: rgba(0, 0, 0, 0.14);
+$box-shadow2: rgba(0, 0, 0, 0.2);
+$white-opacity: rgba(255, 255, 255, 0.5);

@@ -1,0 +1,53 @@
+@import '../../style/variables';
+.button {
+  box-sizing: border-box;
+  font-size: 14px;
+  color: $white-color;
+  background-color: $primary-color;
+  padding: 10px 20px;
+  border: transparent;
+  border-radius: 5px;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+  &:disabled {
+    cursor: default;
+    background-color: $disabled-color;
+    color: $white-color;
+    animation: none;
+  }
+}
+
+.size-small {
+  width: 70px;
+}
+.size-medium {
+  width: 150px;
+}
+.size-large {
+  width: 250px;
+}
+.size-link {
+  color: $white-color;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 23px;
+  padding: 10px 20px;
+  background-color: transparent;
+}
+.size-fat {
+  box-sizing: border-box;
+  width: 195px;
+  height: 60px;
+  border-radius: 30px;
+  padding: 20px 30px 20px 30px;
+}
+.size-xlarge {
+  width: 300px;
+}
+.border-less {
+  border: 0;
+}

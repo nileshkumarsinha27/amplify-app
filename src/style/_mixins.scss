@@ -1,0 +1,33 @@
+@mixin flex-row($horiontalAlign: center, $verticalAlign: center) {
+  display: flex;
+  flex-direction: row;
+  align-items: $verticalAlign;
+  justify-content: $horiontalAlign;
+}
+
+@mixin flex-row-reverse($horiontalAlign: center, $verticalAlign: center) {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: $verticalAlign;
+  justify-content: $horiontalAlign;
+}
+
+@mixin flex-column($horiontalAlign: center, $verticalAlign: center) {
+  display: flex;
+  flex-direction: column;
+  align-items: $horiontalAlign;
+  justify-content: $verticalAlign;
+}
+
+@mixin flex-column-reverse($horiontalAlign: center, $verticalAlign: center) {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: $horiontalAlign;
+  justify-content: $verticalAlign;
+}
+
+@mixin nav-list-font-style($color) {
+  font-weight: normal;
+  font-size: 16px;
+  color: $color;
+}
